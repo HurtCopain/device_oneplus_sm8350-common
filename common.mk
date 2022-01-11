@@ -361,6 +361,9 @@ PRODUCT_PACKAGES += \
     libipanat \
     liboffloadhal
 
+# Kernel headers
+PRODUCT_VENDOR_KERNEL_HEADERS := hardware/qcom-caf/sm8350/kernel-headers
+
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_codecs_lahaina.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
